@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@android:drawable/btn_star"
+        android:id="@+id/appIcon"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:id="@+id/appName"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/appIcon"
+        android:layout_centerVertical="true"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggle"
+        android:layout_centerVertical="true"
+        android:layout_alignBottom="@+id/appIcon"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/appName"
+        android:layout_marginTop="15dp"
+        android:id="@+id/duration"
+        android:layout_below="@+id/appName"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>

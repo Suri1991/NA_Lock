@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NA-LOCK</string>
+    <string name="action_settings">Done</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
